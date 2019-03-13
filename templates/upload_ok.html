@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI颜值识别</title>
+</head>
+<body>
+    <div align="center">
+
+    <form action="" enctype='multipart/form-data' method='POST'>
+        <input type="file" name="file" style="margin-top:20px;"/>
+
+        <input type="submit" value="上传" class="button-new" style="margin-top:15px;"/>
+        <br>
+        <h1  style="color:red ">以杨超越76.66的颜值为标准</h1>
+        <h1  style="color:red ">通过AI识别，对于你的颜值人工智能给出的判定结果是：</h1>
+        <!-- <input type="text" class="txt_input" name="name"  value="" style="margin-top:10px;"/> -->
+
+    </form>
+    <h1  style="color:red ">{{userinput}}</h1>
+    <img src="{{ url_for('static', filename= './images/test.jpg',_t=val1) }}" width="400" height="400" alt="你的图片被外星人劫持了～～"/>
+    </div>
+</body>
+</html>

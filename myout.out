@@ -1,0 +1,770 @@
+nohup: ignoring input
+ * Serving Flask app "upload_picture" (lazy loading)
+ * Environment: production
+   WARNING: Do not use the development server in a production environment.
+   Use a production WSGI server instead.
+ * Debug mode: on
+ * Running on http://0.0.0.0:8888/ (Press CTRL+C to quit)
+ * Restarting with stat
+ * Debugger is active!
+ * Debugger PIN: 240-751-108
+121.71.56.188 - - [08/Mar/2019 02:01:00] "POST /upload HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:01:00] "GET /static/images/test.jpg?_t=1551981660.56 HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:01:04] "POST /upload HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:01:04] "GET /static/images/test.jpg?_t=1551981664.9 HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:01:10] "GET /upload HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:01:10] "GET /favicon.ico HTTP/1.1" 404 -
+121.71.56.188 - - [08/Mar/2019 02:01:25] "POST /upload HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:01:25] "GET /static/images/test.jpg?_t=1551981685.92 HTTP/1.1" 200 -
+113.96.218.50 - - [08/Mar/2019 02:02:13] "GET /upload?nsukey=9AFJ5G3mVrc0kheE2B5zQmPzubsIVsR9Z23oWfocistHNdXxpQAOglBjnGCLOGiMWOGkC24wLrJBw4CNG5xmMAaj2B2FvyGZRFFx3Ip2FnMZGy3gWVS6PhdKMRcxaJYmImYECHxof2BrkaxOUs2FXAx2B7BWXjR2FryjpU8kwSfU33Snzsg3Yh8z1xk8sbHffsxg6bWWXnyn5YEBQ8SL5fXzW47Dww3D3D HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:02:49] "GET /upload HTTP/1.1" 200 -
+61.129.6.251 - - [08/Mar/2019 02:03:07] "GET /upload HTTP/1.1" 200 -
+61.151.178.164 - - [08/Mar/2019 02:03:13] "GET /upload?nsukey=9AFJ5G3mVrc0kheE%2B5zQmPzubsIVsR9Z23oWfocistHNdXxpQAOglBjnGCLOGiMWOGkC24wLrJBw4CNG5xmMAaj%2B%2FvyGZRFFx3Ip%2FnMZGy3gWVS6PhdKMRcxaJYmImYECHxof%2BrkaxOUs%2FXAx%2B7BWXjR%2FryjpU8kwSfU33Snzsg3Yh8z1xk8sbHffsxg6bWWXnyn5YEBQ8SL5fXzW47Dww%3D%3D HTTP/1.1" 200 -
+61.129.8.179 - - [08/Mar/2019 02:03:13] "GET /upload?nsukey=9AFJ5G3mVrc0kheE%2B5zQmPzubsIVsR9Z23oWfocistHNdXxpQAOglBjnGCLOGiMWOGkC24wLrJBw4CNG5xmMAaj%2B%2FvyGZRFFx3Ip%2FnMZGy3gWVS6PhdKMRcxaJYmImYECHxof%2BrkaxOUs%2FXAx%2B7BWXjR%2FryjpU8kwSfU33Snzsg3Yh8z1xk8sbHffsxg6bWWXnyn5YEBQ8SL5fXzW47Dww%3D%3D HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:03:38] "POST /upload HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:03:48] "POST /upload HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:04:05] "GET /favicon.ico HTTP/1.1" 404 -
+121.71.56.188 - - [08/Mar/2019 02:04:06] "GET /upload HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:04:06] "GET /favicon.ico HTTP/1.1" 404 -
+121.71.56.188 - - [08/Mar/2019 02:04:17] "POST /upload HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:04:17] "GET /static/images/test.jpg?_t=1551981857.09 HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:04:36] "POST /upload HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:04:36] "GET /static/images/test.jpg?_t=1551981876.16 HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:04:39] "POST /upload HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/CheckFace/upload_picture.py", line 32, in upload
+    f = request.files['file']
+  File "/usr/lib/python2.7/site-packages/werkzeug/datastructures.py", line 431, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+BadRequestKeyError: 400 Bad Request: KeyError: 'file'
+121.71.56.188 - - [08/Mar/2019 02:04:39] "GET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:04:39] "GET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:04:39] "GET /upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:04:40] "GET /upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:04:40] "GET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:04:53] "GET /upload HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:04:54] "GET /favicon.ico HTTP/1.1" 404 -
+121.71.56.188 - - [08/Mar/2019 02:05:03] "POST /upload HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:05:03] "GET /static/images/test.jpg?_t=1551981903.06 HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:05:11] "POST /upload HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:05:11] "GET /static/images/test.jpg?_t=1551981911.43 HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:07:51] "GET /upload HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:10:32] "GET /upload HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:10:54] "POST /upload HTTP/1.1" 200 -
+121.71.56.188 - - [08/Mar/2019 02:11:08] "POST /upload HTTP/1.1" 200 -
+47.96.254.10 - - [08/Mar/2019 03:16:42] "GET / HTTP/1.0" 404 -
+80.82.70.187 - - [08/Mar/2019 04:02:26] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 -
+47.97.23.199 - - [08/Mar/2019 07:07:30] "GET / HTTP/1.0" 404 -
+61.129.10.43 - - [08/Mar/2019 08:28:57] "GET /upload?nsukey=9Kl2aUL7hWYArxGXvnFuXiC5cyf5nPopLpF9mowTd8DLDUvgJ60KUOvGkwj4wxRcd2Fg1r9p5zBj1LjiL1YoaO4gGNDclLjzNU4FM9wBgGt9pWIlVy2B2Bc2FYWz7ibQPf7v5rJyZbWvVmLDR56QdDayJDlHUYla3DUsRbU3Qnvc9Tj8rg9kl6rju94FwCXc81vMNs6fNMkBL7fxejKdPK7Hkw3D3D HTTP/1.1" 200 -
+61.129.6.203 - - [08/Mar/2019 08:29:57] "GET /upload?nsukey=9Kl2aUL7hWYArxGXvnFuXiC5cyf5nPopLpF9mowTd8DLDUvgJ60KUOvGkwj4wxRcd%2Fg1r9p5zBj1LjiL1YoaO4gGNDclLjzNU4FM9wBgGt9pWIlVy%2B%2Bc%2FYWz7ibQPf7v5rJyZbWvVmLDR56QdDayJDlHUYla3DUsRbU3Qnvc9Tj8rg9kl6rju94FwCXc81vMNs6fNMkBL7fxejKdPK7Hkw%3D%3D HTTP/1.1" 200 -
+61.129.6.251 - - [08/Mar/2019 08:29:57] "GET /upload?nsukey=9Kl2aUL7hWYArxGXvnFuXiC5cyf5nPopLpF9mowTd8DLDUvgJ60KUOvGkwj4wxRcd%2Fg1r9p5zBj1LjiL1YoaO4gGNDclLjzNU4FM9wBgGt9pWIlVy%2B%2Bc%2FYWz7ibQPf7v5rJyZbWvVmLDR56QdDayJDlHUYla3DUsRbU3Qnvc9Tj8rg9kl6rju94FwCXc81vMNs6fNMkBL7fxejKdPK7Hkw%3D%3D HTTP/1.1" 200 -
+185.232.65.60 - - [08/Mar/2019 10:15:09] "GET /v1/wallet/list_keys HTTP/1.1" 404 -
+101.227.139.173 - - [08/Mar/2019 10:20:17] "GET /upload HTTP/1.0" 200 -
+110.16.73.42 - - [08/Mar/2019 10:22:09] "GET /upload?nsukey=VHNPiaZDQPhflfgdpv%2BkdnxsNk6WuQ93G0%2B9z3Phz4aRvXQlQERomAdqjHSOiictnu%2Fc1EfUBVSIRjH%2BudpK3kRZ2dob0DWHElrajUw9ODxYzJcYYAI6kov79rAlaaUBQ6T%2BcaO2QqnKuUnIyq7F929OXfeU%2FnHovBv7lmHqzQW3wEOFkswYbgWZznmD8yFsEGC9leN%2BTIBtpKQ7wtpTtw%3D%3D HTTP/1.1" 200 -
+110.16.73.42 - - [08/Mar/2019 10:22:10] "GET /favicon.ico HTTP/1.1" 404 -
+171.8.173.79 - - [08/Mar/2019 10:25:44] "GET /upload HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:25:44] "GET /favicon.ico HTTP/1.1" 404 -
+171.8.173.79 - - [08/Mar/2019 10:26:41] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:26:42] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:26:43] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:26:43] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:26:43] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:26:43] "POST /upload HTTP/1.1" 400 -
+61.129.6.251 - - [08/Mar/2019 10:26:44] "GET /upload HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:26:47] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:26:47] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:26:48] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:26:51] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:26:52] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:26:52] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:26:52] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:26:52] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:26:58] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:26:58] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:26:58] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:26:59] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:26:59] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:00] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:01] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:01] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:01] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:01] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:01] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:02] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:02] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:03] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:03] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:03] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:04] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:04] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:04] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:04] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:04] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:04] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:04] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:05] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:05] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:05] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:05] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:05] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:05] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:05] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:06] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:11] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:11] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:12] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:12] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:12] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:12] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:12] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:12] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:12] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:13] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:14] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:15] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:15] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:15] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:15] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:15] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:15] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:15] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:15] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:15] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:16] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:16] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:16] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:16] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:16] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:16] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:16] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:17] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:17] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:17] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:19] "POST /upload HTTP/1.1" 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:19] "GET /upload HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:27:22] "GET /upload HTTP/1.1" 200 -
+113.128.104.55 - - [08/Mar/2019 10:27:25] code 400, message Bad request syntax ('\x05\x03\x00\x01\x02')
+113.128.104.55 - - [08/Mar/2019 10:27:25] " " 400 -
+171.8.173.79 - - [08/Mar/2019 10:27:36] "POST /upload HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:27:43] "GET /upload HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:27:44] "POST /upload HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:27:46] "GET /upload HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:04] "POST /upload HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/CheckFace/upload_picture.py", line 32, in upload
+    f = request.files['file']
+  File "/usr/lib/python2.7/site-packages/werkzeug/datastructures.py", line 431, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+BadRequestKeyError: 400 Bad Request: KeyError: 'file'
+171.8.173.79 - - [08/Mar/2019 10:28:04] "GET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:04] "GET /upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:04] "GET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:04] "GET /upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:05] "GET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:05] "GET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:09] "GET /upload HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:10] "POST /upload HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/CheckFace/upload_picture.py", line 32, in upload
+    f = request.files['file']
+  File "/usr/lib/python2.7/site-packages/werkzeug/datastructures.py", line 431, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+BadRequestKeyError: 400 Bad Request: KeyError: 'file'
+171.8.173.79 - - [08/Mar/2019 10:28:10] "GET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:10] "GET /upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:10] "GET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:10] "GET /upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:10] "GET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:11] "GET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:24] "GET /upload HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:35] "POST /upload HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/CheckFace/upload_picture.py", line 49, in upload
+    user_input = ai.get_socre()
+  File "/root/CheckFace/test2.py", line 46, in get_socre
+    gender = json_result['result']['face_list'][0]['gender']['type']
+TypeError: 'NoneType' object has no attribute '__getitem__'
+171.8.173.79 - - [08/Mar/2019 10:28:35] "GET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:35] "GET /upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:36] "GET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:36] "GET /upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:36] "GET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+171.8.173.79 - - [08/Mar/2019 10:28:37] "GET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+61.151.178.163 - - [08/Mar/2019 10:29:05] "GET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+61.151.178.164 - - [08/Mar/2019 10:29:05] "GET /upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+139.162.81.62 - - [08/Mar/2019 10:33:09] "GET http://clientapi.ipip.net/echo.php?info=1234567890 HTTP/1.1" 404 -
+59.42.89.146 - - [08/Mar/2019 11:12:34] "CONNECT ip.cn:443 HTTP/1.1" 404 -
+59.42.89.146 - - [08/Mar/2019 11:12:34] "GET http://2019.ip138.com/ic.asp HTTP/1.1" 404 -
+202.106.86.138 - - [08/Mar/2019 12:34:25] "GET /upload HTTP/1.1" 200 -
+202.106.86.138 - - [08/Mar/2019 12:34:25] "GET /favicon.ico HTTP/1.1" 404 -
+202.106.86.138 - - [08/Mar/2019 12:34:45] "POST /upload HTTP/1.1" 200 -
+202.106.86.138 - - [08/Mar/2019 12:34:45] "GET /static/images/test.jpg?_t=1552019685.6 HTTP/1.1" 200 -
+202.106.86.138 - - [08/Mar/2019 12:56:24] "GET /upload HTTP/1.1" 200 -
+202.106.86.138 - - [08/Mar/2019 12:56:32] "POST /upload HTTP/1.1" 200 -
+202.106.86.138 - - [08/Mar/2019 12:56:32] "GET /static/images/test.jpg?_t=1552020992.55 HTTP/1.1" 200 -
+202.106.86.138 - - [08/Mar/2019 12:56:50] "POST /upload HTTP/1.1" 200 -
+202.106.86.138 - - [08/Mar/2019 12:56:51] "GET /static/images/test.jpg?_t=1552021010.97 HTTP/1.1" 200 -
+202.106.86.138 - - [08/Mar/2019 12:57:01] "POST /upload HTTP/1.1" 200 -
+202.106.86.138 - - [08/Mar/2019 12:57:01] "GET /static/images/test.jpg?_t=1552021021.55 HTTP/1.1" 200 -
+202.106.86.138 - - [08/Mar/2019 12:57:22] "GET /upload HTTP/1.1" 200 -
+183.3.255.35 - - [08/Mar/2019 12:57:45] "GET /upload?nsukey=8mYsjxlw8j4bJW9Ugs3erxmzaZbpy664YmpVFRsgm8MXOL69r3bsZhZlfAzhX2BWAw8gK7tBueZECjBVdccwIu7ulYtYKNZp6byUzGNlejVx7yylVReiHCmokhv2BbG8RLdb32FUvRkiSE2cEUOBEOZ082FLokn2CiWV3uU6OBmnP4KDTmWcAEBBcqvbfHfA2FxJ4S4nygyCdUMJiTAyIyNfMcA3D3D HTTP/1.1" 200 -
+61.151.178.172 - - [08/Mar/2019 12:58:20] "GET /upload?nsukey=IxoCA6o8LRlzowXknjK1mMMqWkEL4NidYIZn3OMxoPJwonUZulFKmiQSVLJt9BoxaOKh1MZiwQyg2Fzxtu3L2FxYDIdpNdJwVyfLIRQ9Wlm2ByAefWB8fFh92fbJz2Ft4lyvksn4d2BSQ8OVQNcJWNm2E7DJe68EHDBNaC0JUJw18TF8H8Oi5Q8YKr2BlrieIVfV47KMKfmYj73CxZY70zF6jzQ3D3D HTTP/1.1" 200 -
+61.129.6.251 - - [08/Mar/2019 12:58:45] "GET /upload?nsukey=8mYsjxlw8j4bJW9Ugs3erxmzaZbpy664YmpVFRsgm8MXOL69r3bsZhZlfAzhX%2BWAw8gK7tBueZECjBVdccwIu7ulYtYKNZp6byUzGNlejVx7yylVReiHCmokhv%2BbG8RLdb3%2FUvRkiSE2cEUOBEOZ08%2FLokn2CiWV3uU6OBmnP4KDTmWcAEBBcqvbfHfA%2FxJ4S4nygyCdUMJiTAyIyNfMcA%3D%3D HTTP/1.1" 200 -
+61.151.178.165 - - [08/Mar/2019 12:58:45] "GET /upload?nsukey=8mYsjxlw8j4bJW9Ugs3erxmzaZbpy664YmpVFRsgm8MXOL69r3bsZhZlfAzhX%2BWAw8gK7tBueZECjBVdccwIu7ulYtYKNZp6byUzGNlejVx7yylVReiHCmokhv%2BbG8RLdb3%2FUvRkiSE2cEUOBEOZ08%2FLokn2CiWV3uU6OBmnP4KDTmWcAEBBcqvbfHfA%2FxJ4S4nygyCdUMJiTAyIyNfMcA%3D%3D HTTP/1.1" 200 -
+61.148.243.60 - - [08/Mar/2019 12:58:50] "GET /upload HTTP/1.1" 200 -
+61.148.243.60 - - [08/Mar/2019 12:59:05] "POST /upload HTTP/1.1" 200 -
+61.151.178.165 - - [08/Mar/2019 12:59:20] "GET /upload?nsukey=IxoCA6o8LRlzowXknjK1mMMqWkEL4NidYIZn3OMxoPJwonUZulFKmiQSVLJt9BoxaOKh1MZiwQyg%2Fzxtu3L%2FxYDIdpNdJwVyfLIRQ9Wlm%2ByAefWB8fFh92fbJz2Ft4lyvksn4d%2BSQ8OVQNcJWNm2E7DJe68EHDBNaC0JUJw18TF8H8Oi5Q8YKr%2BlrieIVfV47KMKfmYj73CxZY70zF6jzQ%3D%3D HTTP/1.1" 200 -
+61.151.178.175 - - [08/Mar/2019 12:59:20] "GET /upload?nsukey=IxoCA6o8LRlzowXknjK1mMMqWkEL4NidYIZn3OMxoPJwonUZulFKmiQSVLJt9BoxaOKh1MZiwQyg%2Fzxtu3L%2FxYDIdpNdJwVyfLIRQ9Wlm%2ByAefWB8fFh92fbJz2Ft4lyvksn4d%2BSQ8OVQNcJWNm2E7DJe68EHDBNaC0JUJw18TF8H8Oi5Q8YKr%2BlrieIVfV47KMKfmYj73CxZY70zF6jzQ%3D%3D HTTP/1.1" 200 -
+202.106.86.138 - - [08/Mar/2019 12:59:48] "POST /upload HTTP/1.1" 200 -
+202.106.86.138 - - [08/Mar/2019 12:59:48] "GET /static/images/test.jpg?_t=1552021188.43 HTTP/1.1" 200 -
+202.106.86.138 - - [08/Mar/2019 13:00:45] "POST /upload HTTP/1.1" 200 -
+202.106.86.138 - - [08/Mar/2019 13:00:45] "GET /static/images/test.jpg?_t=1552021245.43 HTTP/1.1" 200 -
+113.96.231.120 - - [08/Mar/2019 13:08:54] "GET /upload?nsukey=A1QReTuQbeW62B2FYyXFnEA62L6SThSlQMTPA1aXNQdY6q54ugwD5x13da2OpKC70phiFmLyc8fKFIoepgoxvHhj2F3JiOLSAEhC8xP7GHDqSdCi9n9HoEete55iZnpdQ0gUrYHxSuASfRzMoZu0hGkyYq2lRNQfnpfuV0PJOgB4vuFTjfdvh542BkFkOw8Hdciu978St2BAnA2FK2mlvEkEBFxw3D3D HTTP/1.1" 200 -
+101.226.225.85 - - [08/Mar/2019 13:09:37] "GET /upload?nsukey=p8tfIjo2mLf4v0GriG4DKrn5yySXn2BnffJ4kAhnZdEPlPNLqqW1378Xd2FD1yjusePuBuUwmUdEScBW8CrmMa7uWGFJ4kf5yPRzNgPF2FdPgrZt2FdDY2JfoYTeHScUDAeaJjai2yRhVpgm4QBbUzGF5npZjuSTiwujCdAV1tmY4um2F5VEKtZoN4xkRnyJD45VC HTTP/1.1" 200 -
+61.151.178.163 - - [08/Mar/2019 13:09:54] "GET /upload?nsukey=A1QReTuQbeW6%2B%2FYyXFnEA62L6SThSlQMTPA1aXNQdY6q54ugwD5x13da2OpKC70phiFmLyc8fKFIoepgoxvHhj%2F3JiOLSAEhC8xP7GHDqSdCi9n9HoEete55iZnpdQ0gUrYHxSuASfRzMoZu0hGkyYq2lRNQfnpfuV0PJOgB4vuFTjfdvh54%2BkFkOw8Hdciu978St%2BAnA%2FK2mlvEkEBFxw%3D%3D HTTP/1.1" 200 -
+101.91.60.107 - - [08/Mar/2019 13:10:37] "GET /upload?nsukey=p8tfIjo2mLf4v0GriG4DKrn5yySXn%2BnffJ4kAhnZdEPlPNLqqW1378Xd%2FD1yjusePuBuUwmUdEScBW8CrmMa7uWGFJ4kf5yPRzNgPF%2FdPgrZt%2FdDY2JfoYTeHScUDAeaJjai2yRhVpgm4QBbUzGF5npZjuSTiwujCdAV1tmY4um%2F5VEKtZoN4xkRnyJD45VC HTTP/1.1" 200 -
+61.129.6.159 - - [08/Mar/2019 13:10:37] "GET /upload?nsukey=p8tfIjo2mLf4v0GriG4DKrn5yySXn%2BnffJ4kAhnZdEPlPNLqqW1378Xd%2FD1yjusePuBuUwmUdEScBW8CrmMa7uWGFJ4kf5yPRzNgPF%2FdPgrZt%2FdDY2JfoYTeHScUDAeaJjai2yRhVpgm4QBbUzGF5npZjuSTiwujCdAV1tmY4um%2F5VEKtZoN4xkRnyJD45VC HTTP/1.1" 200 -
+61.151.179.27 - - [08/Mar/2019 13:17:27] "GET /upload?nsukey=XqKDtFcqPlLk8EaGFa2FLukk16wJofZQD5DLS1lBK2pMLoHcYglx18L9XbfCdQcOEx1meRisuDGBT4fIevaR1XcvatgkL7iDjTCWBFUd5K3wE33GveWptNxwunlpfkXXbOHabMUXHXvU9q0uApQCW2Fn88MkENjx8WAkcRFbn9rjQ9PM9t2FTbWMDP7WfPrjUfQXtWUaES0vh7O0qVvyhq7Gg3D3D HTTP/1.1" 200 -
+61.129.6.148 - - [08/Mar/2019 13:17:53] "GET /upload?nsukey=zbjsSvAB54x0CzZ2FzpQF9a5C41m0XiUI7Dt8UBN95wC85qyyxod2Fi2BbGcojAnfmMhv5ts72vmp8B2BzalwbBNNfrsHATzSF5JhePHdBLJKOL5osOq3SXFddYCTOdHFzfhOShiEBflkriwkPXx35myhQFBDwN3Iu2Bk8h2BPBEXljcLtEe6bCz2Bjw2BubTfU4EkqIyzOBrfE5qSN8gpzuCVtjyA3D3D HTTP/1.1" 200 -
+106.45.4.54 - - [08/Mar/2019 13:18:01] "GET /upload?nsukey=Yzdg5JDfI%2BwHxPxNQp5B%2B7SQOyfTaRm6IOisBt2H4uV8xIHwpRnwUDq2zlaAf0o4da2bJgz1XtDlw4FSuYJt5eWYHe1PWC1dhTxs%2F3%2B%2FBnIybO5ntXNya%2F5LRnZJ%2FXZ3T6IoNO4R6UfEjI19EKhVUDIIdFReOUY1Rqcs5WEwhAChRwpC%2BhP2JxRloc2dVKjI4a2bK4I1rx%2FLRm6KVSNhrg%3D%3D HTTP/1.1" 200 -
+106.45.4.54 - - [08/Mar/2019 13:18:01] "GET /favicon.ico HTTP/1.1" 404 -
+61.151.207.186 - - [08/Mar/2019 13:18:22] "GET /upload?nsukey=XqKDtFcqPlLk8EaGFa%2FLukk16wJofZQD5DLS1lBK2pMLoHcYglx18L9XbfCdQcOEx1meRisuDGBT4fIevaR1XcvatgkL7iDjTCWBFUd5K3wE33GveWptNxwunlpfkXXbOHabMUXHXvU9q0uApQCW%2Fn88MkENjx8WAkcRFbn9rjQ9PM9t%2FTbWMDP7WfPrjUfQXtWUaES0vh7O0qVvyhq7Gg%3D%3D HTTP/1.1" 200 -
+106.45.4.54 - - [08/Mar/2019 13:18:43] "POST /upload?nsukey=Yzdg5JDfI%2BwHxPxNQp5B%2B7SQOyfTaRm6IOisBt2H4uV8xIHwpRnwUDq2zlaAf0o4da2bJgz1XtDlw4FSuYJt5eWYHe1PWC1dhTxs%2F3%2B%2FBnIybO5ntXNya%2F5LRnZJ%2FXZ3T6IoNO4R6UfEjI19EKhVUDIIdFReOUY1Rqcs5WEwhAChRwpC%2BhP2JxRloc2dVKjI4a2bK4I1rx%2FLRm6KVSNhrg%3D%3D HTTP/1.1" 200 -
+106.45.4.54 - - [08/Mar/2019 13:18:44] "GET /static/images/test.jpg?_t=1552022323.94 HTTP/1.1" 200 -
+101.89.29.86 - - [08/Mar/2019 13:18:52] "GET /upload?nsukey=zbjsSvAB54x0CzZ%2FzpQF9a5C41m0XiUI7Dt8UBN95wC85qyyxod%2Fi%2BbGcojAnfmMhv5ts72vmp8B%2BzalwbBNNfrsHATzSF5JhePHdBLJKOL5osOq3SXFddYCTOdHFzfhOShiEBflkriwkPXx35myhQFBDwN3Iu%2Bk8h%2BPBEXljcLtEe6bCz%2Bjw%2BubTfU4EkqIyzOBrfE5qSN8gpzuCVtjyA%3D%3D HTTP/1.1" 200 -
+58.247.206.139 - - [08/Mar/2019 13:18:52] "GET /upload?nsukey=zbjsSvAB54x0CzZ%2FzpQF9a5C41m0XiUI7Dt8UBN95wC85qyyxod%2Fi%2BbGcojAnfmMhv5ts72vmp8B%2BzalwbBNNfrsHATzSF5JhePHdBLJKOL5osOq3SXFddYCTOdHFzfhOShiEBflkriwkPXx35myhQFBDwN3Iu%2Bk8h%2BPBEXljcLtEe6bCz%2Bjw%2BubTfU4EkqIyzOBrfE5qSN8gpzuCVtjyA%3D%3D HTTP/1.1" 200 -
+61.151.178.177 - - [08/Mar/2019 13:19:01] "GET /upload?nsukey=Yzdg5JDfI%2BwHxPxNQp5B%2B7SQOyfTaRm6IOisBt2H4uV8xIHwpRnwUDq2zlaAf0o4da2bJgz1XtDlw4FSuYJt5eWYHe1PWC1dhTxs%2F3%2B%2FBnIybO5ntXNya%2F5LRnZJ%2FXZ3T6IoNO4R6UfEjI19EKhVUDIIdFReOUY1Rqcs5WEwhAChRwpC%2BhP2JxRloc2dVKjI4a2bK4I1rx%2FLRm6KVSNhrg%3D%3D HTTP/1.1" 200 -
+101.226.225.84 - - [08/Mar/2019 13:39:00] "GET /upload?nsukey=OXSZH2B0mCVgupKIzN7y3s6zoj0V59uf5idQt0Pmb0cqJAggoSSXFHjVqj42Bz70FwJCIsUpqZvPASSRjTI3DVUyC3yNu8Ex41o7hVszJoeH2F9nPVhElkM3ONb4B1BDU32FNlMprf7e8CZNImViG02FWN9qRC4BOQuqBLRlQksiay2BRmSCrqztLJ7xxMHflT9aMJgbBs8DNjeekW0CA1Usl04Q3D3D HTTP/1.1" 200 -
+61.151.178.165 - - [08/Mar/2019 13:40:00] "GET /upload?nsukey=OXSZH%2B0mCVgupKIzN7y3s6zoj0V59uf5idQt0Pmb0cqJAggoSSXFHjVqj4%2Bz70FwJCIsUpqZvPASSRjTI3DVUyC3yNu8Ex41o7hVszJoeH%2F9nPVhElkM3ONb4B1BDU3%2FNlMprf7e8CZNImViG0%2FWN9qRC4BOQuqBLRlQksiay%2BRmSCrqztLJ7xxMHflT9aMJgbBs8DNjeekW0CA1Usl04Q%3D%3D HTTP/1.1" 200 -
+61.129.6.151 - - [08/Mar/2019 13:40:00] "GET /upload?nsukey=OXSZH%2B0mCVgupKIzN7y3s6zoj0V59uf5idQt0Pmb0cqJAggoSSXFHjVqj4%2Bz70FwJCIsUpqZvPASSRjTI3DVUyC3yNu8Ex41o7hVszJoeH%2F9nPVhElkM3ONb4B1BDU3%2FNlMprf7e8CZNImViG0%2FWN9qRC4BOQuqBLRlQksiay%2BRmSCrqztLJ7xxMHflT9aMJgbBs8DNjeekW0CA1Usl04Q%3D%3D HTTP/1.1" 200 -
+61.130.181.70 - - [08/Mar/2019 13:40:18] "GET /upload HTTP/1.1" 200 -
+61.130.181.70 - - [08/Mar/2019 13:40:18] "GET /favicon.ico HTTP/1.1" 404 -
+61.130.181.70 - - [08/Mar/2019 13:41:39] "POST /upload HTTP/1.1" 200 -
+61.130.181.70 - - [08/Mar/2019 13:41:39] "GET /static/images/test.jpg?_t=1552023699.09 HTTP/1.1" 200 -
+124.64.18.138 - - [08/Mar/2019 13:42:26] "GET /upload HTTP/1.1" 200 -
+124.64.18.138 - - [08/Mar/2019 13:42:26] "GET /favicon.ico HTTP/1.1" 404 -
+61.130.181.70 - - [08/Mar/2019 13:42:59] "POST /upload HTTP/1.1" 200 -
+61.130.181.70 - - [08/Mar/2019 13:42:59] "GET /static/images/test.jpg?_t=1552023779.88 HTTP/1.1" 200 -
+61.130.181.70 - - [08/Mar/2019 13:44:07] "POST /upload HTTP/1.1" 200 -
+61.130.181.70 - - [08/Mar/2019 13:44:07] "GET /static/images/test.jpg?_t=1552023847.07 HTTP/1.1" 200 -
+61.130.181.70 - - [08/Mar/2019 13:44:07] "POST /upload HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/CheckFace/upload_picture.py", line 32, in upload
+    f = request.files['file']
+  File "/usr/lib/python2.7/site-packages/werkzeug/datastructures.py", line 431, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+BadRequestKeyError: 400 Bad Request: KeyError: 'file'
+61.130.181.70 - - [08/Mar/2019 13:44:07] "GET /upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+61.130.181.70 - - [08/Mar/2019 13:44:07] "GET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+61.130.181.70 - - [08/Mar/2019 13:44:07] "GET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+61.130.181.70 - - [08/Mar/2019 13:44:08] "GET /upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+61.130.181.70 - - [08/Mar/2019 13:44:08] "GET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+61.130.181.70 - - [08/Mar/2019 13:44:09] "GET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+61.130.181.70 - - [08/Mar/2019 13:44:14] "GET /static/images/test.jpg?_t=1552023847.07 HTTP/1.1" 200 -
+14.116.133.170 - - [08/Mar/2019 13:47:15] "GET /upload?nsukey=Eax98aA2B0pi1XibCocHt0r73Z5Gyp3FDZd2qhmYPoD45DX3DzzID1rvRJHI0SOJ1LJZ2Fm2FvXc3lAEQuda2FvuhmMhL3k7nPeqrLZcPvDZkYdEUsFnb2BsuMxhT6EPsiCPT1ooZlRMAE5ki1vD3yOb7HmvB072tL4knpbGaRjRKJT0QJQguJuols2FBQeDbxdsKaZC7iANcPYBi4py0V32Lncg3D3D HTTP/1.1" 200 -
+101.89.19.197 - - [08/Mar/2019 13:48:15] "GET /upload?nsukey=Eax98aA%2B0pi1XibCocHt0r73Z5Gyp3FDZd2qhmYPoD45DX3DzzID1rvRJHI0SOJ1LJZ%2Fm%2FvXc3lAEQuda%2FvuhmMhL3k7nPeqrLZcPvDZkYdEUsFnb%2BsuMxhT6EPsiCPT1ooZlRMAE5ki1vD3yOb7HmvB072tL4knpbGaRjRKJT0QJQguJuols%2FBQeDbxdsKaZC7iANcPYBi4py0V32Lncg%3D%3D HTTP/1.1" 200 -
+101.89.29.86 - - [08/Mar/2019 13:48:15] "GET /upload?nsukey=Eax98aA%2B0pi1XibCocHt0r73Z5Gyp3FDZd2qhmYPoD45DX3DzzID1rvRJHI0SOJ1LJZ%2Fm%2FvXc3lAEQuda%2FvuhmMhL3k7nPeqrLZcPvDZkYdEUsFnb%2BsuMxhT6EPsiCPT1ooZlRMAE5ki1vD3yOb7HmvB072tL4knpbGaRjRKJT0QJQguJuols%2FBQeDbxdsKaZC7iANcPYBi4py0V32Lncg%3D%3D HTTP/1.1" 200 -
+61.151.207.252 - - [08/Mar/2019 13:53:04] "GET /upload?nsukey=DzL5zLuTPxO5nWFh2F1DFMEdg2BbXsRyN5F6f2FRoWqxpkGddZael5vLfYc6nfi44hfegezksoVo6PfafzdhrzdEYfqrEN5gi7HJ0wtec2BzuJWVoTS4Ux3XgLu3BqSaENde2g8C0iLcWmknOnwuPPC73YowuvmJCBh7OFCDgSEQPPuzdrxlznOqCyXTNW4fLPc2P2tfTMfi1qjzROAjW3OrPg3D3D HTTP/1.1" 200 -
+61.151.207.141 - - [08/Mar/2019 13:54:04] "GET /upload?nsukey=DzL5zLuTPxO5nWFh%2F1DFMEdg%2BbXsRyN5F6f%2FRoWqxpkGddZael5vLfYc6nfi44hfegezksoVo6PfafzdhrzdEYfqrEN5gi7HJ0wtec%2BzuJWVoTS4Ux3XgLu3BqSaENde2g8C0iLcWmknOnwuPPC73YowuvmJCBh7OFCDgSEQPPuzdrxlznOqCyXTNW4fLPc2P2tfTMfi1qjzROAjW3OrPg%3D%3D HTTP/1.1" 200 -
+120.132.3.65 - - [08/Mar/2019 13:54:13] "GET http://www.qq.com/404/search_children.js HTTP/1.1" 404 -
+120.132.3.65 - - [08/Mar/2019 13:54:18] code 400, message Bad request syntax ('\x04\x01\x00PpTi4\x00')
+120.132.3.65 - - [08/Mar/2019 13:54:18] " PpTi4 " 400 -
+120.132.3.65 - - [08/Mar/2019 13:54:18] code 400, message Bad request syntax ('\x05\x01\x00')
+120.132.3.65 - - [08/Mar/2019 13:54:18] " " 400 -
+61.129.8.250 - - [08/Mar/2019 14:12:30] "GET /upload?nsukey=c004UsbNQ2BlAss6etpqTc2i9gFa2BljBeiWJOJfuMzkpAY0E5REhcAPpzLOhY6OoAOf17yUygRdIqoksCT5ehYcHHDR5TJQZ0MzBEiLFEX05muPNibOQFvYtOryy4FGCJzDFkDG7hwP2FhJvkoXfcgDpxQTzIxUPWxbLUWIFw2FhpehtNetExSnURIQ8HtHSy2IwNJtvd32FX2FOj4vwFadYzUQ3D3D HTTP/1.1" 200 -
+101.226.226.221 - - [08/Mar/2019 14:13:29] "GET /upload?nsukey=c004UsbNQ%2BlAss6etpqTc2i9gFa%2BljBeiWJOJfuMzkpAY0E5REhcAPpzLOhY6OoAOf17yUygRdIqoksCT5ehYcHHDR5TJQZ0MzBEiLFEX05muPNibOQFvYtOryy4FGCJzDFkDG7hwP%2FhJvkoXfcgDpxQTzIxUPWxbLUWIFw%2FhpehtNetExSnURIQ8HtHSy2IwNJtvd3%2FX%2FOj4vwFadYzUQ%3D%3D HTTP/1.1" 200 -
+61.129.6.148 - - [08/Mar/2019 14:53:58] "GET /upload?nsukey=a13jiopwsns9CL5TFr18zWyEJ6AoY6prViM90SpA4zltcKDO4G3cH2ffcD870ayzlVfz45ygz2BNDHaXBk7ft3KaWscWSOdjkNXn2MDLBnTVK5FyB2Fw0nKe4yirzky7JrLbHgjMbMsXOK6s0AFMIBEgZIYl1axnRrgj4LYQhJQ2BO2BXR2BrEpQaDBgP8l6P13WIK2FC2BhD9zsNq2x2y2F4jGDRw3D3D HTTP/1.1" 200 -
+61.129.6.151 - - [08/Mar/2019 14:54:53] "GET /upload?nsukey=a13jiopwsns9CL5TFr18zWyEJ6AoY6prViM90SpA4zltcKDO4G3cH2ffcD870ayzlVfz45ygz%2BNDHaXBk7ft3KaWscWSOdjkNXn2MDLBnTVK5FyB%2Fw0nKe4yirzky7JrLbHgjMbMsXOK6s0AFMIBEgZIYl1axnRrgj4LYQhJQ%2BO%2BXR%2BrEpQaDBgP8l6P13WIK%2FC%2BhD9zsNq2x2y%2F4jGDRw%3D%3D HTTP/1.1" 200 -
+203.192.13.164 - - [08/Mar/2019 15:21:40] "GET /upload HTTP/1.1" 200 -
+203.192.13.164 - - [08/Mar/2019 15:21:41] "GET /favicon.ico HTTP/1.1" 404 -
+203.192.13.164 - - [08/Mar/2019 15:21:44] "POST /upload HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/CheckFace/upload_picture.py", line 32, in upload
+    f = request.files['file']
+  File "/usr/lib/python2.7/site-packages/werkzeug/datastructures.py", line 431, in __getitem__
+    raise exceptions.BadRequestKeyError(key)
+BadRequestKeyError: 400 Bad Request: KeyError: 'file'
+203.192.13.164 - - [08/Mar/2019 15:21:44] "GET /upload?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+203.192.13.164 - - [08/Mar/2019 15:21:44] "GET /upload?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+203.192.13.164 - - [08/Mar/2019 15:21:44] "GET /upload?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+203.192.13.164 - - [08/Mar/2019 15:21:44] "GET /upload?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+203.192.13.164 - - [08/Mar/2019 15:21:45] "GET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+203.192.13.164 - - [08/Mar/2019 15:21:45] "GET /upload?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+203.192.13.164 - - [08/Mar/2019 15:23:20] "POST /upload HTTP/1.1" 200 -
+203.192.13.164 - - [08/Mar/2019 15:23:20] "GET /static/images/test.jpg?_t=1552029800.77 HTTP/1.1" 200 -
+182.200.178.133 - - [08/Mar/2019 15:23:47] code 400, message Bad request syntax ('\x05\x03\x00\x01\x02')
+182.200.178.133 - - [08/Mar/2019 15:23:47] " " 400 -
+61.129.8.199 - - [08/Mar/2019 16:15:03] "GET /upload?nsukey=1wpjEAGBKbNCEDh2BZ0h3CsBbEEFSfhgqpXChR5NJJI72bx8xO1uuMTb55t8Zb4XfMWkNHBdPRae9kznHt3WGBXa6LBLbZk2J92BYlX2kUY1syqA1LzLLLw0xHYlWqDK7BlIXo7VETJEL52UQ6a3lYK0B2Bi7uCs6zowsxE8GDnEXsyYsxUTkb2FaWUVTIMtu02B2FXUiZqZyDq0EzZs7icwvohQ3D3D HTTP/1.1" 200 -
+101.91.60.110 - - [08/Mar/2019 16:16:03] "GET /upload?nsukey=1wpjEAGBKbNCEDh%2BZ0h3CsBbEEFSfhgqpXChR5NJJI72bx8xO1uuMTb55t8Zb4XfMWkNHBdPRae9kznHt3WGBXa6LBLbZk2J9%2BYlX2kUY1syqA1LzLLLw0xHYlWqDK7BlIXo7VETJEL52UQ6a3lYK0B%2Bi7uCs6zowsxE8GDnEXsyYsxUTkb%2FaWUVTIMtu0%2B%2FXUiZqZyDq0EzZs7icwvohQ%3D%3D HTTP/1.1" 200 -
+111.201.225.143 - - [08/Mar/2019 16:17:38] "GET /upload HTTP/1.1" 200 -
+111.201.225.143 - - [08/Mar/2019 16:17:39] "GET /favicon.ico HTTP/1.1" 404 -
+111.201.225.143 - - [08/Mar/2019 16:18:11] "POST /upload HTTP/1.1" 200 -
+111.201.225.143 - - [08/Mar/2019 16:18:11] "GET /static/images/test.jpg?_t=1552033091.64 HTTP/1.1" 200 -
+111.201.225.143 - - [08/Mar/2019 16:18:11] "GET /favicon.ico HTTP/1.1" 404 -
+111.201.225.143 - - [08/Mar/2019 16:18:36] "GET /upload HTTP/1.1" 200 -
+111.201.225.143 - - [08/Mar/2019 16:18:43] "POST /upload HTTP/1.1" 200 -
+111.201.225.143 - - [08/Mar/2019 16:18:43] "GET /static/images/test.jpg?_t=1552033123.78 HTTP/1.1" 200 -
+101.226.225.59 - - [08/Mar/2019 16:43:41] "GET /upload?nsukey=ZexG1rZzM07gaOp8E2FJv1my1Xy1bpVfuaMLN9kUnBPUqrgWjuFNWhcSZnQSu4MyYvXZS5eOoTP7mZmZ5S4GwzOgxMXl2SnhvvHKw75k2Qj7E1K8EeGJK2ByN2Z2FzLHSm2AoZ1Cdm5xibZ99HdUJMaU4AxOXBx9U8WfbUeU2k9Sshoush02uxoC2ZlJEe6Vzj3khSRtWtXuuWnfc7xfXayw3D3D HTTP/1.1" 200 -
+183.3.234.54 - - [08/Mar/2019 16:43:48] "GET /upload?nsukey=ZexG1rZzM07gaOp8E2FJv1my1Xy1bpVfuaMLN9kUnBPUqrgWjuFNWhcSZnQSu4MyYvXZS5eOoTP7mZmZ5S4GwzOgxMXl2SnhvvHKw75k2Qj7E1K8EeGJK2ByN2Z2FzLHSm2AoZ1Cdm5xibZ99HdUJMaU4AxOXBx9U8WfbUeU2k9Sshoush02uxoC2ZlJEe6Vzj3khSRtWtXuuWnfc7xfXayw3D3D HTTP/1.1" 200 -
+106.34.16.65 - - [08/Mar/2019 16:43:52] "GET /upload?nsukey=ZexG1rZzM07gaOp8E2FJv1my1Xy1bpVfuaMLN9kUnBPUqrgWjuFNWhcSZnQSu4MyYvXZS5eOoTP7mZmZ5S4GwzOgxMXl2SnhvvHKw75k2Qj7E1K8EeGJK2ByN2Z2FzLHSm2AoZ1Cdm5xibZ99HdUJMaU4AxOXBx9U8WfbUeU2k9Sshoush02uxoC2ZlJEe6Vzj3khSRtWtXuuWnfc7xfXayw3D3D HTTP/1.1" 200 -
+106.34.16.65 - - [08/Mar/2019 16:43:52] "GET /favicon.ico HTTP/1.1" 404 -
+120.92.72.199 - - [08/Mar/2019 16:43:53] "GET / HTTP/1.1" 404 -
+120.92.72.197 - - [08/Mar/2019 16:43:53] "GET / HTTP/1.1" 404 -
+106.34.16.65 - - [08/Mar/2019 16:44:25] "POST /upload?nsukey=ZexG1rZzM07gaOp8E2FJv1my1Xy1bpVfuaMLN9kUnBPUqrgWjuFNWhcSZnQSu4MyYvXZS5eOoTP7mZmZ5S4GwzOgxMXl2SnhvvHKw75k2Qj7E1K8EeGJK2ByN2Z2FzLHSm2AoZ1Cdm5xibZ99HdUJMaU4AxOXBx9U8WfbUeU2k9Sshoush02uxoC2ZlJEe6Vzj3khSRtWtXuuWnfc7xfXayw3D3D HTTP/1.1" 200 -
+106.34.16.65 - - [08/Mar/2019 16:44:25] "GET /upload?nsukey=ZexG1rZzM07gaOp8E2FJv1my1Xy1bpVfuaMLN9kUnBPUqrgWjuFNWhcSZnQSu4MyYvXZS5eOoTP7mZmZ5S4GwzOgxMXl2SnhvvHKw75k2Qj7E1K8EeGJK2ByN2Z2FzLHSm2AoZ1Cdm5xibZ99HdUJMaU4AxOXBx9U8WfbUeU2k9Sshoush02uxoC2ZlJEe6Vzj3khSRtWtXuuWnfc7xfXayw3D3D HTTP/1.1" 200 -
+101.89.19.149 - - [08/Mar/2019 16:44:41] "GET /upload?nsukey=ZexG1rZzM07gaOp8E%2FJv1my1Xy1bpVfuaMLN9kUnBPUqrgWjuFNWhcSZnQSu4MyYvXZS5eOoTP7mZmZ5S4GwzOgxMXl2SnhvvHKw75k2Qj7E1K8EeGJK2ByN2Z%2FzLHSm2AoZ1Cdm5xibZ99HdUJMaU4AxOXBx9U8WfbUeU2k9Sshoush02uxoC2ZlJEe6Vzj3khSRtWtXuuWnfc7xfXayw%3D%3D HTTP/1.1" 200 -
+61.129.6.159 - - [08/Mar/2019 16:44:41] "GET /upload?nsukey=ZexG1rZzM07gaOp8E%2FJv1my1Xy1bpVfuaMLN9kUnBPUqrgWjuFNWhcSZnQSu4MyYvXZS5eOoTP7mZmZ5S4GwzOgxMXl2SnhvvHKw75k2Qj7E1K8EeGJK2ByN2Z%2FzLHSm2AoZ1Cdm5xibZ99HdUJMaU4AxOXBx9U8WfbUeU2k9Sshoush02uxoC2ZlJEe6Vzj3khSRtWtXuuWnfc7xfXayw%3D%3D HTTP/1.1" 200 -
+101.91.62.99 - - [08/Mar/2019 16:44:52] "GET /upload?nsukey=ZexG1rZzM07gaOp8E2FJv1my1Xy1bpVfuaMLN9kUnBPUqrgWjuFNWhcSZnQSu4MyYvXZS5eOoTP7mZmZ5S4GwzOgxMXl2SnhvvHKw75k2Qj7E1K8EeGJK2ByN2Z2FzLHSm2AoZ1Cdm5xibZ99HdUJMaU4AxOXBx9U8WfbUeU2k9Sshoush02uxoC2ZlJEe6Vzj3khSRtWtXuuWnfc7xfXayw3D3D HTTP/1.1" 200 -
+61.151.178.164 - - [08/Mar/2019 16:44:53] "GET / HTTP/1.1" 404 -
+183.36.112.205 - - [08/Mar/2019 17:53:12] "GET /upload?nsukey=enaip4mszYND4jiACMhCNzMyUgQQLtFRK0AUqTAdvbR72Aija1HQBLLPYvQa2FhEjri8pLOBTeEpqjVjZJOzZesoyOlB69B3RU3TIOU2B6SwhWt2FnnR1xgZKOmTycX37kPxGs7LCIiB0gteanLpgOluo4ojRqmw2BMyyjbAyRFT52B4Ekr2AA2FkDhQBvtMECaIqr7k1me1MwcB2FIQ8lxzYz0A3D3D HTTP/1.1" 200 -
+101.226.226.221 - - [08/Mar/2019 17:54:12] "GET /upload?nsukey=enaip4mszYND4jiACMhCNzMyUgQQLtFRK0AUqTAdvbR72Aija1HQBLLPYvQa%2FhEjri8pLOBTeEpqjVjZJOzZesoyOlB69B3RU3TIOU%2B6SwhWt%2FnnR1xgZKOmTycX37kPxGs7LCIiB0gteanLpgOluo4ojRqmw%2BMyyjbAyRFT52B4Ekr2AA%2FkDhQBvtMECaIqr7k1me1MwcB%2FIQ8lxzYz0A%3D%3D HTTP/1.1" 200 -
+113.96.219.249 - - [08/Mar/2019 17:55:22] "GET /upload?nsukey=O2FoABJINC2BHmoeCwY2BDn37XLSImX1DmkCQUIjXEuz8Due8IHUwT2BDqN8b4w2FitenwQup3hSDZZpPlaDtYYeh74hZEF8DMOG8lj0zBCRqJRzTxQLOVYl82FNWrGsNTUf5zdIgu5T41hMF1VI48IO9NUmaFAiuk8aDN0B1cqjaJ2VIlef1pQ51mKnI76gt2F1Sj12WFKraSyLvEHbIw6jp5EBg3D3D HTTP/1.1" 200 -
+101.227.139.172 - - [08/Mar/2019 17:56:22] "GET /upload?nsukey=O%2FoABJINC%2BHmoeCwY%2BDn37XLSImX1DmkCQUIjXEuz8Due8IHUwT%2BDqN8b4w%2FitenwQup3hSDZZpPlaDtYYeh74hZEF8DMOG8lj0zBCRqJRzTxQLOVYl8%2FNWrGsNTUf5zdIgu5T41hMF1VI48IO9NUmaFAiuk8aDN0B1cqjaJ2VIlef1pQ51mKnI76gt%2F1Sj12WFKraSyLvEHbIw6jp5EBg%3D%3D HTTP/1.1" 200 -
+117.136.45.143 - - [08/Mar/2019 17:56:30] "GET /upload?nsukey=O2FoABJINC2BHmoeCwY2BDn37XLSImX1DmkCQUIjXEuz8Due8IHUwT2BDqN8b4w2FitenwQup3hSDZZpPlaDtYYeh74hZEF8DMOG8lj0zBCRqJRzTxQLOVYl82FNWrGsNTUf5zdIgu5T41hMF1VI48IO9NUmaFAiuk8aDN0B1cqjaJ2VIlef1pQ51mKnI76gt2F1Sj12WFKraSyLvEHbIw6jp5EBg3D3D HTTP/1.1" 200 -
+117.136.45.143 - - [08/Mar/2019 17:56:31] "GET /favicon.ico HTTP/1.1" 404 -
+61.151.178.169 - - [08/Mar/2019 17:56:33] "GET /upload?nsukey=18HT2PKPNPB9JrgVAswZkVQQIbeIOGi35jSVkKn6LtlcLV7HQW1k7S5XtjN5Mmy80mFYrBENVsqj3rSuoZgDqO7WhxNnA0mj7C2BVjjq2aljkPsmXIob0lUjsKe04vZObG2F2vpUwaB3IdheugCPMliJUdJgdRnBn4WeyHa9Ca5WyYHBggCoM4b3Bq8NhSefDqsiCPu4ba3EjMMwU3fXGGGw3D3D HTTP/1.1" 200 -
+180.111.33.182 - - [08/Mar/2019 17:57:27] "GET /upload HTTP/1.1" 200 -
+180.111.33.182 - - [08/Mar/2019 17:57:27] "GET /favicon.ico HTTP/1.1" 404 -
+61.151.178.217 - - [08/Mar/2019 17:57:30] "GET /upload?nsukey=O2FoABJINC2BHmoeCwY2BDn37XLSImX1DmkCQUIjXEuz8Due8IHUwT2BDqN8b4w2FitenwQup3hSDZZpPlaDtYYeh74hZEF8DMOG8lj0zBCRqJRzTxQLOVYl82FNWrGsNTUf5zdIgu5T41hMF1VI48IO9NUmaFAiuk8aDN0B1cqjaJ2VIlef1pQ51mKnI76gt2F1Sj12WFKraSyLvEHbIw6jp5EBg3D3D HTTP/1.1" 200 -
+61.129.6.251 - - [08/Mar/2019 17:57:32] "GET /upload?nsukey=18HT2PKPNPB9JrgVAswZkVQQIbeIOGi35jSVkKn6LtlcLV7HQW1k7S5XtjN5Mmy80mFYrBENVsqj3rSuoZgDqO7WhxNnA0mj7C%2BVjjq2aljkPsmXIob0lUjsKe04vZObG%2F2vpUwaB3IdheugCPMliJUdJgdRnBn4WeyHa9Ca5WyYHBggCoM4b3Bq8NhSefDqsiCPu4ba3EjMMwU3fXGGGw%3D%3D HTTP/1.1" 200 -
+54.160.235.139 - - [08/Mar/2019 18:48:13] "GET / HTTP/1.1" 404 -
+101.226.225.84 - - [08/Mar/2019 20:31:26] "GET /upload?nsukey=2F9yIoRCkugd6zVq5uptaajEvUq9gh2B0YK2BYJ2BV4jNYU98lkDZI4ggXpkM2mLQkebGnhni5CeVViHKHTaidFPEB7lrMF2Bu1lKQxFbG5SJ0g2FM3OR8tCwbHCmE5t2FAAh2B27VZMuEgcM8IQ29BhPDg6Hwob7UMxZaoN4hHj2gPKS5W4Jyd2B2UxGbF6L2BbBxu1NLT2BVk7W5PBfWFcLKpzIAbBw3D3D HTTP/1.1" 200 -
+183.205.56.84 - - [08/Mar/2019 20:31:46] "GET /upload?nsukey=2F9yIoRCkugd6zVq5uptaajEvUq9gh2B0YK2BYJ2BV4jNYU98lkDZI4ggXpkM2mLQkebGnhni5CeVViHKHTaidFPEB7lrMF2Bu1lKQxFbG5SJ0g2FM3OR8tCwbHCmE5t2FAAh2B27VZMuEgcM8IQ29BhPDg6Hwob7UMxZaoN4hHj2gPKS5W4Jyd2B2UxGbF6L2BbBxu1NLT2BVk7W5PBfWFcLKpzIAbBw3D3D HTTP/1.1" 200 -
+183.205.56.84 - - [08/Mar/2019 20:31:46] "GET /favicon.ico HTTP/1.1" 404 -
+61.129.8.203 - - [08/Mar/2019 20:31:48] "GET /upload?nsukey=7oDlU7xVXWPcbkiWuIcgFo9A7dzKHq2FLKGZ2Y57e1MTX7bnpJezvcKjpQ22BZcWqil5rvTSRfj0Pb3JoZr2FQPk2FjIJHhkrg7VFlJbJiAxQJ0Yz32BybX67ZH1q2Bxp5aL80kKkUiU1WeTAn4oy3h5I2zBhOTjOHWPwnMGvVSFVeFE9xrB6qFihfup0idoLyn2BubcQ9cAVhHpOVAfFTZfUmaXw3D3D HTTP/1.1" 200 -
+183.205.56.84 - - [08/Mar/2019 20:31:54] "GET /upload?nsukey=7oDlU7xVXWPcbkiWuIcgFo9A7dzKHq2FLKGZ2Y57e1MTX7bnpJezvcKjpQ22BZcWqil5rvTSRfj0Pb3JoZr2FQPk2FjIJHhkrg7VFlJbJiAxQJ0Yz32BybX67ZH1q2Bxp5aL80kKkUiU1WeTAn4oy3h5I2zBhOTjOHWPwnMGvVSFVeFE9xrB6qFihfup0idoLyn2BubcQ9cAVhHpOVAfFTZfUmaXw3D3D HTTP/1.1" 200 -
+101.226.225.85 - - [08/Mar/2019 20:31:56] "GET /upload?nsukey=xoh2BjcaqvkoGhHuie0BT3qMzNOprWZXhiC1N5XfAor2FzJZ7QdON2Z2BNQNVn2FHD9pyKrQRb82a7NGBh1FoYZzZs2B1BOJ7azLcbEYWYD2F2BUW2BbSgb68KleZJVFhrGpAA02F9BD2BZrzrP7Ol7J3eJfWHEpRYWwwT6j3GC6nv7y9DWWZ3z2F0GXwiudnSirf5wYLgESmvXqs2Gwxh9hMLXk2FExLQ3D3D HTTP/1.1" 200 -
+101.91.60.108 - - [08/Mar/2019 20:32:25] "GET /upload?nsukey=%2F9yIoRCkugd6zVq5uptaajEvUq9gh%2B0YK%2BYJ%2BV4jNYU98lkDZI4ggXpkM2mLQkebGnhni5CeVViHKHTaidFPEB7lrMF%2Bu1lKQxFbG5SJ0g%2FM3OR8tCwbHCmE5t%2FAAh%2B27VZMuEgcM8IQ29BhPDg6Hwob7UMxZaoN4hHj2gPKS5W4Jyd%2B2UxGbF6L%2BbBxu1NLT%2BVk7W5PBfWFcLKpzIAbBw%3D%3D HTTP/1.1" 200 -
+61.129.6.225 - - [08/Mar/2019 20:32:25] "GET /upload?nsukey=%2F9yIoRCkugd6zVq5uptaajEvUq9gh%2B0YK%2BYJ%2BV4jNYU98lkDZI4ggXpkM2mLQkebGnhni5CeVViHKHTaidFPEB7lrMF%2Bu1lKQxFbG5SJ0g%2FM3OR8tCwbHCmE5t%2FAAh%2B27VZMuEgcM8IQ29BhPDg6Hwob7UMxZaoN4hHj2gPKS5W4Jyd%2B2UxGbF6L%2BbBxu1NLT%2BVk7W5PBfWFcLKpzIAbBw%3D%3D HTTP/1.1" 200 -
+101.89.239.230 - - [08/Mar/2019 20:32:46] "GET /upload?nsukey=2F9yIoRCkugd6zVq5uptaajEvUq9gh2B0YK2BYJ2BV4jNYU98lkDZI4ggXpkM2mLQkebGnhni5CeVViHKHTaidFPEB7lrMF2Bu1lKQxFbG5SJ0g2FM3OR8tCwbHCmE5t2FAAh2B27VZMuEgcM8IQ29BhPDg6Hwob7UMxZaoN4hHj2gPKS5W4Jyd2B2UxGbF6L2BbBxu1NLT2BVk7W5PBfWFcLKpzIAbBw3D3D HTTP/1.1" 200 -
+61.151.178.165 - - [08/Mar/2019 20:32:46] "GET /upload?nsukey=2F9yIoRCkugd6zVq5uptaajEvUq9gh2B0YK2BYJ2BV4jNYU98lkDZI4ggXpkM2mLQkebGnhni5CeVViHKHTaidFPEB7lrMF2Bu1lKQxFbG5SJ0g2FM3OR8tCwbHCmE5t2FAAh2B27VZMuEgcM8IQ29BhPDg6Hwob7UMxZaoN4hHj2gPKS5W4Jyd2B2UxGbF6L2BbBxu1NLT2BVk7W5PBfWFcLKpzIAbBw3D3D HTTP/1.1" 200 -
+101.89.29.94 - - [08/Mar/2019 20:32:48] "GET /upload?nsukey=7oDlU7xVXWPcbkiWuIcgFo9A7dzKHq%2FLKGZ2Y57e1MTX7bnpJezvcKjpQ2%2BZcWqil5rvTSRfj0Pb3JoZr%2FQPk%2FjIJHhkrg7VFlJbJiAxQJ0Yz3%2BybX67ZH1q%2Bxp5aL80kKkUiU1WeTAn4oy3h5I2zBhOTjOHWPwnMGvVSFVeFE9xrB6qFihfup0idoLyn%2BubcQ9cAVhHpOVAfFTZfUmaXw%3D%3D HTTP/1.1" 200 -
+61.129.6.203 - - [08/Mar/2019 20:32:54] "GET /upload?nsukey=7oDlU7xVXWPcbkiWuIcgFo9A7dzKHq2FLKGZ2Y57e1MTX7bnpJezvcKjpQ22BZcWqil5rvTSRfj0Pb3JoZr2FQPk2FjIJHhkrg7VFlJbJiAxQJ0Yz32BybX67ZH1q2Bxp5aL80kKkUiU1WeTAn4oy3h5I2zBhOTjOHWPwnMGvVSFVeFE9xrB6qFihfup0idoLyn2BubcQ9cAVhHpOVAfFTZfUmaXw3D3D HTTP/1.1" 200 -
+101.91.62.99 - - [08/Mar/2019 20:32:56] "GET /upload?nsukey=xoh%2BjcaqvkoGhHuie0BT3qMzNOprWZXhiC1N5XfAor%2FzJZ7QdON2Z%2BNQNVn%2FHD9pyKrQRb82a7NGBh1FoYZzZs%2B1BOJ7azLcbEYWYD%2F%2BUW%2BbSgb68KleZJVFhrGpAA0%2F9BD%2BZrzrP7Ol7J3eJfWHEpRYWwwT6j3GC6nv7y9DWWZ3z%2F0GXwiudnSirf5wYLgESmvXqs2Gwxh9hMLXk%2FExLQ%3D%3D HTTP/1.1" 200 -
+171.13.14.42 - - [08/Mar/2019 20:34:33] "CONNECT 133.130.126.119:43 HTTP/1.1" 404 -
+80.82.70.187 - - [09/Mar/2019 00:21:05] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 -
+47.52.221.59 - - [09/Mar/2019 02:03:36] "GET / HTTP/1.0" 404 -
+124.133.51.197 - - [09/Mar/2019 02:09:52] "GET / HTTP/1.0" 404 -
+124.133.51.197 - - [09/Mar/2019 02:13:36] "GET /nmaplowercheck1552068815 HTTP/1.1" 404 -
+124.133.51.197 - - [09/Mar/2019 02:13:36] "GET /evox/about HTTP/1.1" 404 -
+124.133.51.197 - - [09/Mar/2019 02:13:47] "GET / HTTP/1.0" 404 -
+124.133.51.197 - - [09/Mar/2019 02:13:48] "GET / HTTP/1.1" 404 -
+124.133.51.197 - - [09/Mar/2019 02:13:51] "GET /HNAP1 HTTP/1.1" 404 -
+171.13.14.12 - - [09/Mar/2019 08:28:51] "CONNECT 133.130.126.119:43 HTTP/1.1" 404 -
+196.52.43.101 - - [09/Mar/2019 09:15:54] "GET / HTTP/1.0" 404 -
+47.52.210.94 - - [09/Mar/2019 09:34:40] "GET / HTTP/1.0" 404 -
+113.96.218.51 - - [09/Mar/2019 09:43:30] "GET /upload?nsukey=MxdVSyRh6792fB8qiIfm52axgqkAxZEEAjickI62FLkvzzMZqlJuXpvpjDcAP6sYdPvb1oaYEsIIZmqmYgmrS3p3C17n3LUPyS5WTsaVgKkEUcm2nBBRwnpDFAR0I3EUF3y2BSqStgzFHSufvaoj6mcA3D3D HTTP/1.1" 200 -
+111.201.231.130 - - [09/Mar/2019 09:44:19] "GET /upload HTTP/1.1" 200 -
+111.201.231.130 - - [09/Mar/2019 09:44:19] "GET /favicon.ico HTTP/1.1" 404 -
+101.227.139.164 - - [09/Mar/2019 09:44:29] "GET /upload?nsukey=MxdVSyRh6792fB8qiIfm52axgqkAxZEEAjickI6%2FLkvzzMZqlJuXpvpjDcAP6sYdPvb1oaYEsIIZmqmYgmrS3p3C17n3LUPyS5WTsaVgKkEUcm2nBBRwnpDFAR0I3EUF3y%2BSqStgzFHSufvaoj6mcA%3D%3D HTTP/1.1" 200 -
+111.201.231.130 - - [09/Mar/2019 09:45:03] "GET /upload HTTP/1.1" 200 -
+27.156.90.131 - - [09/Mar/2019 09:45:23] "GET http://api.ipify.org/ HTTP/1.1" 404 -
+139.162.83.10 - - [09/Mar/2019 09:45:29] "GET / HTTP/1.1" 404 -
+36.32.3.227 - - [09/Mar/2019 09:45:33] code 400, message Bad request syntax ('\x05\x03\x00\x01\x02')
+36.32.3.227 - - [09/Mar/2019 09:45:33] " " 400 -
+111.201.231.130 - - [09/Mar/2019 09:48:01] "POST /upload HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/CheckFace/upload_picture.py", line 49, in upload
+    user_input = ai.get_socre()
+  File "/root/CheckFace/test2.py", line 46, in get_socre
+    gender = json_result['result']['face_list'][0]['gender']['type']
+TypeError: 'NoneType' object has no attribute '__getitem__'
+111.201.231.130 - - [09/Mar/2019 09:48:28] "POST /upload HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/CheckFace/upload_picture.py", line 49, in upload
+    user_input = ai.get_socre()
+  File "/root/CheckFace/test2.py", line 46, in get_socre
+    gender = json_result['result']['face_list'][0]['gender']['type']
+TypeError: 'NoneType' object has no attribute '__getitem__'
+111.201.231.130 - - [09/Mar/2019 09:48:42] "POST /upload HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/CheckFace/upload_picture.py", line 49, in upload
+    user_input = ai.get_socre()
+  File "/root/CheckFace/test2.py", line 46, in get_socre
+    gender = json_result['result']['face_list'][0]['gender']['type']
+TypeError: 'NoneType' object has no attribute '__getitem__'
+111.201.231.130 - - [09/Mar/2019 09:49:03] "POST /upload HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/CheckFace/upload_picture.py", line 49, in upload
+    user_input = ai.get_socre()
+  File "/root/CheckFace/test2.py", line 46, in get_socre
+    gender = json_result['result']['face_list'][0]['gender']['type']
+TypeError: 'NoneType' object has no attribute '__getitem__'
+111.201.231.130 - - [09/Mar/2019 09:49:07] "POST /upload HTTP/1.1" 500 -
+Error on request:
+Traceback (most recent call last):
+  File "/usr/lib/python2.7/site-packages/werkzeug/serving.py", line 270, in run_wsgi
+    execute(self.server.app)
+  File "/usr/lib/python2.7/site-packages/werkzeug/serving.py", line 261, in execute
+    write(data)
+  File "/usr/lib/python2.7/site-packages/werkzeug/serving.py", line 224, in write
+    self.send_response(code, msg)
+  File "/usr/lib/python2.7/site-packages/werkzeug/serving.py", line 337, in send_response
+    self.wfile.write(hdr.encode('ascii'))
+IOError: [Errno 104] Connection reset by peer
+111.201.231.130 - - [09/Mar/2019 09:53:55] "POST /upload HTTP/1.1" 500 -
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2309, in __call__
+    return self.wsgi_app(environ, start_response)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2295, in wsgi_app
+    response = self.handle_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1741, in handle_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 2292, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1815, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1718, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1813, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/usr/lib64/python2.7/site-packages/flask/app.py", line 1799, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/root/CheckFace/upload_picture.py", line 49, in upload
+    user_input = ai.get_socre()
+  File "/root/CheckFace/test2.py", line 46, in get_socre
+    gender = json_result['result']['face_list'][0]['gender']['type']
+TypeError: 'NoneType' object has no attribute '__getitem__'
+111.201.231.130 - - [09/Mar/2019 10:02:30] "GET /upload HTTP/1.1" 200 -
+111.201.231.130 - - [09/Mar/2019 10:02:30] "GET /favicon.ico HTTP/1.1" 404 -
+111.201.231.130 - - [09/Mar/2019 10:02:37] "GET /upload HTTP/1.1" 200 -
+111.201.231.130 - - [09/Mar/2019 10:02:42] "GET /upload HTTP/1.1" 200 -
+139.162.81.62 - - [09/Mar/2019 10:03:45] "GET http://clientapi.ipip.net/echo.php?info=1234567890 HTTP/1.1" 404 -
+80.82.70.187 - - [09/Mar/2019 10:31:31] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 -
+59.42.90.124 - - [09/Mar/2019 13:16:21] "CONNECT ip.cn:443 HTTP/1.1" 404 -
+59.42.90.124 - - [09/Mar/2019 13:16:21] "GET http://2019.ip138.com/ic.asp HTTP/1.1" 404 -
+80.82.70.187 - - [09/Mar/2019 20:34:33] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 -
+171.13.14.57 - - [09/Mar/2019 20:40:50] "CONNECT 133.130.126.119:43 HTTP/1.1" 404 -
+47.52.210.94 - - [10/Mar/2019 00:05:59] "GET / HTTP/1.0" 404 -
+80.82.70.187 - - [10/Mar/2019 06:52:54] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 -
+47.97.16.6 - - [10/Mar/2019 08:00:36] "GET / HTTP/1.0" 404 -
+139.162.81.62 - - [10/Mar/2019 11:47:46] "GET http://clientapi.ipip.net/echo.php?info=1234567890 HTTP/1.1" 404 -
+77.247.109.34 - - [10/Mar/2019 13:09:29] "GET /cgi/webcgi HTTP/1.1" 404 -
+77.247.109.34 - - [10/Mar/2019 13:09:31] code 400, message Bad request syntax ('\x16\x03\x01\x00\xa6\x01\x00\x00\xa2\x03\x03\xe0@\xb8E\x15\x16\xbe\xd3\x13^\xf1\x82\x90|\x10w\xaa1[&D\x13\xa5\x97u\xd7\x16\xfc3D\x7f\xb1\x00\x00<\xc0,\xc0')
+77.247.109.34 - - [10/Mar/2019 13:09:31] " ¦  ¢à@¸E¾Ó^ñ‚|wª1[&D¥—u×ü3D±  <À,À" 400 -
+80.82.70.187 - - [10/Mar/2019 17:05:37] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 -
+198.108.67.16 - - [10/Mar/2019 17:49:22] "GET / HTTP/1.1" 404 -
+106.15.52.246 - - [11/Mar/2019 02:07:25] "GET / HTTP/1.0" 404 -
+80.82.70.187 - - [11/Mar/2019 03:10:21] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:26] "GET / HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:26] "GET http://www.msftncsi.com/ncsi.txt HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:26] "GET /HNAP1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:27] "GET /hudson/script HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:28] "GET /script HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:28] "GET /sqlite/main.php HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:28] "GET /sqlitemanager/main.php HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:29] "GET /SQLiteManager/main.php HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:29] "GET /SQLite/main.php HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:30] "GET /SQlite/main.php HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:30] "GET /main.php HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:30] "GET /test/sqlite/SQLiteManager-1.2.0/SQLiteManager-1.2.0/main.php HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:31] "GET /SQLiteManager-1.2.4/main.php HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:31] "GET /agSearch/SQlite/main.php HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:32] "GET /phpmyadmin/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:32] "GET /phpMyAdmin/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:32] "GET /PMA/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:33] "GET /pma/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:33] "GET /admin/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:33] "GET /dbadmin/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:34] "GET /mysql/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:34] "GET /myadmin/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:35] "GET /openserver/phpmyadmin/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:35] "GET /phpmyadmin2/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:35] "GET /phpMyAdmin2/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:36] "GET /phpMyAdmin-2/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:36] "GET /php-my-admin/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:36] "GET /phpMyAdmin-2.2.3/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:37] "GET /phpMyAdmin-2.2.6/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:37] "GET /phpMyAdmin-2.5.1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:38] "GET /phpMyAdmin-2.5.4/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:38] "GET /phpMyAdmin-2.5.5-rc1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:38] "GET /phpMyAdmin-2.5.5-rc2/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:39] "GET /phpMyAdmin-2.5.5/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:39] "GET /phpMyAdmin-2.5.5-pl1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:40] "GET /phpMyAdmin-2.5.6-rc1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:40] "GET /phpMyAdmin-2.5.6-rc2/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:40] "GET /phpMyAdmin-2.5.6/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:41] "GET /phpMyAdmin-2.5.7/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:41] "GET /phpMyAdmin-2.5.7-pl1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:42] "GET /phpMyAdmin-2.6.0-alpha/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:42] "GET /phpMyAdmin-2.6.0-alpha2/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:42] "GET /phpMyAdmin-2.6.0-beta1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:43] "GET /phpMyAdmin-2.6.0-beta2/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:43] "GET /phpMyAdmin-2.6.0-rc1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:44] "GET /phpMyAdmin-2.6.0-rc2/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:44] "GET /phpMyAdmin-2.6.0-rc3/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:44] "GET /phpMyAdmin-2.6.0/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:45] "GET /phpMyAdmin-2.6.0-pl1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:45] "GET /phpMyAdmin-2.6.0-pl2/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:46] "GET /phpMyAdmin-2.6.0-pl3/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:46] "GET /phpMyAdmin-2.6.1-rc1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:46] "GET /phpMyAdmin-2.6.1-rc2/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:47] "GET /phpMyAdmin-2.6.1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:47] "GET /phpMyAdmin-2.6.1-pl1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:47] "GET /phpMyAdmin-2.6.1-pl2/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:48] "GET /phpMyAdmin-2.6.1-pl3/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:48] "GET /phpMyAdmin-2.6.2-rc1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:49] "GET /phpMyAdmin-2.6.2-beta1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:49] "GET /phpMyAdmin-2.6.2-rc1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:49] "GET /phpMyAdmin-2.6.2/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:50] "GET /phpMyAdmin-2.6.2-pl1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:50] "GET /phpMyAdmin-2.6.3/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:51] "GET /phpMyAdmin-2.6.3-rc1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:51] "GET /phpMyAdmin-2.6.3/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:51] "GET /phpMyAdmin-2.6.3-pl1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:52] "GET /phpMyAdmin-2.6.4-rc1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:52] "GET /phpMyAdmin-2.6.4-pl1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:52] "GET /phpMyAdmin-2.6.4-pl2/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:53] "GET /phpMyAdmin-2.6.4-pl3/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:53] "GET /phpMyAdmin-2.6.4-pl4/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:54] "GET /phpMyAdmin-2.6.4/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:54] "GET /phpMyAdmin-2.7.0-beta1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:54] "GET /phpMyAdmin-2.7.0-rc1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:55] "GET /phpMyAdmin-2.7.0-pl1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:55] "GET /phpMyAdmin-2.7.0-pl2/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:56] "GET /phpMyAdmin-2.7.0/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:56] "GET /phpMyAdmin-2.8.0-beta1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:56] "GET /phpMyAdmin-2.8.0-rc1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:57] "GET /phpMyAdmin-2.8.0-rc2/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:57] "GET /phpMyAdmin-2.8.0/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:58] "GET /phpMyAdmin-2.8.0.1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:58] "GET /phpMyAdmin-2.8.0.2/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:58] "GET /phpMyAdmin-2.8.0.3/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:59] "GET /phpMyAdmin-2.8.0.4/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:39:59] "GET /phpMyAdmin-2.8.1-rc1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:40:00] "GET /phpMyAdmin-2.8.1/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:40:00] "GET /phpMyAdmin-2.8.2/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:40:01] "GET /sqlmanager/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:40:01] "GET /mysqlmanager/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:40:01] "GET /p/m/a/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:40:02] "GET /PMA2005/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:40:02] "GET /pma2005/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:40:03] "GET /phpmanager/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:40:03] "GET /php-myadmin/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:40:04] "GET /phpmy-admin/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:40:04] "GET /webadmin/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:40:04] "GET /sqlweb/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:40:05] "GET /websql/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:40:05] "GET /webdb/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:40:06] "GET /mysqladmin/ HTTP/1.1" 404 -
+181.215.49.173 - - [11/Mar/2019 06:40:06] "GET /mysql-admin/ HTTP/1.1" 404 -
+47.97.23.199 - - [11/Mar/2019 08:44:38] "GET / HTTP/1.0" 404 -
+139.162.81.62 - - [11/Mar/2019 09:49:28] "GET http://clientapi.ipip.net/echo.php?info=1234567890 HTTP/1.1" 404 -
+80.82.70.187 - - [11/Mar/2019 13:48:59] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 -
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/site-packages/werkzeug/serving.py", line 324, in handle_one_request
+    self.raw_requestline = self.rfile.readline()
+IOError: [Errno 104] Connection reset by peer
+59.42.91.182 - - [11/Mar/2019 17:23:49] "CONNECT ip.cn:443 HTTP/1.1" 404 -
+59.42.91.182 - - [11/Mar/2019 17:23:49] "GET http://2019.ip138.com/ic.asp HTTP/1.1" 404 -
+Traceback (most recent call last):
+  File "/usr/lib64/python2.7/SocketServer.py", line 593, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python2.7/SocketServer.py", line 334, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python2.7/SocketServer.py", line 649, in __init__
+    self.handle()
+  File "/usr/lib/python2.7/site-packages/werkzeug/serving.py", line 293, in handle
+    rv = BaseHTTPRequestHandler.handle(self)
+  File "/usr/lib64/python2.7/BaseHTTPServer.py", line 340, in handle
+    self.handle_one_request()
+  File "/usr/lib/python2.7/site-packages/werkzeug/serving.py", line 324, in handle_one_request
+    self.raw_requestline = self.rfile.readline()
+IOError: [Errno 104] Connection reset by peer
+188.92.73.25 - - [11/Mar/2019 23:48:03] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%\xe0\x00\x00\x00\x00\x00Cookie:')
+188.92.73.25 - - [11/Mar/2019 23:48:03] "  *%à     Cookie: mstshash=Test" 400 -
+188.92.73.25 - - [11/Mar/2019 23:48:03] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00*%\xe0\x00\x00\x00\x00\x00Cookie:')
+188.92.73.25 - - [11/Mar/2019 23:48:03] "  *%à     Cookie: mstshash=Test" 400 -
+80.82.70.187 - - [11/Mar/2019 23:54:32] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 -
+172.105.238.87 - - [11/Mar/2019 23:55:09] "GET / HTTP/1.1" 404 -
+47.52.210.140 - - [12/Mar/2019 00:01:54] "GET / HTTP/1.0" 404 -
+122.14.218.133 - - [12/Mar/2019 01:44:15] "GET / HTTP/1.1" 404 -
+47.100.64.9 - - [12/Mar/2019 07:09:32] "GET / HTTP/1.0" 404 -
+139.162.81.62 - - [12/Mar/2019 09:02:54] "GET http://clientapi.ipip.net/echo.php?info=1234567890 HTTP/1.1" 404 -
+80.82.70.187 - - [12/Mar/2019 09:58:46] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 -
+183.90.97.138 - - [12/Mar/2019 12:41:48] "GET / HTTP/1.0" 404 -
+120.132.3.65 - - [12/Mar/2019 13:52:16] "GET http://www.qq.com/404/search_children.js HTTP/1.1" 404 -
+120.132.3.65 - - [12/Mar/2019 13:52:21] code 400, message Bad request syntax ('\x04\x01\x00PpTi4\x00')
+120.132.3.65 - - [12/Mar/2019 13:52:21] " PpTi4 " 400 -
+120.132.3.65 - - [12/Mar/2019 13:52:21] code 400, message Bad request syntax ('\x05\x01\x00')
+120.132.3.65 - - [12/Mar/2019 13:52:21] " " 400 -
+196.52.43.105 - - [12/Mar/2019 14:24:01] "GET / HTTP/1.0" 404 -
+188.92.74.70 - - [12/Mar/2019 17:21:23] code 400, message Bad HTTP/0.9 request type ('\x03\x00\x00/*\xe0\x00\x00\x00\x00\x00Cookie:')
+188.92.74.70 - - [12/Mar/2019 17:21:23] "  /*à     Cookie: mstshash=Administr" 400 -
+59.42.88.42 - - [12/Mar/2019 19:27:40] "GET http://2019.ip138.com/ic.asp HTTP/1.1" 404 -
+59.42.88.42 - - [12/Mar/2019 19:27:40] "CONNECT ip.cn:443 HTTP/1.1" 404 -
+80.82.70.187 - - [12/Mar/2019 20:05:11] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 -
+106.15.76.92 - - [13/Mar/2019 05:11:58] "GET / HTTP/1.0" 404 -
+80.82.70.187 - - [13/Mar/2019 06:18:16] "GET http://www.baidu.com/cache/global/img/gs.gif HTTP/1.1" 404 -
+47.93.180.168 - - [13/Mar/2019 09:01:27] "GET / HTTP/1.0" 404 -
+139.162.81.62 - - [13/Mar/2019 13:14:21] "GET http://clientapi.ipip.net/echo.php?info=1234567890 HTTP/1.1" 404 -
